@@ -11,8 +11,9 @@ public class UserInfo {
 		private String userName;
 	 	private List<Category> preferences;
 	 	private List<PointOfInterest> trip;
+	 	private List<PointOfInterest> visited;
 	 	
-	 	public String getId() {
+		public String getId() {
 			return id;
 		}
 		public void setId(String id) {
@@ -35,6 +36,13 @@ public class UserInfo {
 		}
 		public void setTrip(List<PointOfInterest> trip) {
 			this.trip = trip;
+		}
+		
+		public List<PointOfInterest> getVisited() {
+			return visited;
+		}
+		public void setVisited(List<PointOfInterest> visited) {
+			this.visited = visited;
 		}
 	 	
 }

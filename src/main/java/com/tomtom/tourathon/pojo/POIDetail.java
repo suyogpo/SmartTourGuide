@@ -1,9 +1,6 @@
 package com.tomtom.tourathon.pojo;
 
 
-import lombok.Data;
-
-@Data
 public class POIDetail {
 	 	private Long id;
 	 	private String poiName;
